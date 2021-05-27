@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	background: #efefef;
+}
+.contactbox{
+	margin-top: 20px;
+	width: 500px;
+	background: #fff;
+	box-shadow: 0 0 20px 0 #999;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+form{
+	margin: 35px;
+}
+.input-field{
+	width: 400px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right:10px ;
+	border: 1px solid gray;
+	border-radius: 14px;
+	outline: none;font-family: 'Poppins', sans-serif;
+
+}
+.text-field{
+	height: 150px;
+	padding-top: 10px;
+	width: 400px;
+	
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-right:10px ;
+	border: 1px solid gray;
+	border-radius: 14px;
+	outline: none;font-family: 'Poppins', sans-serif;
+} 
+.btn{
+	padding: 20px 40px;
+	margin-bottom: 10px;
+}
+a{
+	text-decoration: none;
+	border: 3px solid black;
+	background: black;
+	color: white;
+	padding: 10px 15px;
+
+}
+h1{
+	text-align: center;
+}
+.back{
+	padding: 10px 20px;
+	margin-top: 10px;
+	
+}
+.back a{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+@media only screen and (max-width: 1190px){
+	.back{
+		width: 31% ;
+	}	
+}
+@media only screen and (max-width: 990px){
+	.fadein-top-right p{
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+@media only screen and (max-width: 800px){
+	.content{
+		width: 45%;
+		margin: 2.4% 2.46%;
+	}
+}
+
+@media only screen and (max-width: 550px){
+	.content{
+		width: 65%;
+		margin: 2.4% 17.46%;
+	}
+}
+@media only screen and (max-width: 550px){
+	.back{
+		width: 80%;
+		margin: 1.4% 20% 0 40%;
+		margin-top: 10px;
+	}
+@media only screen and (max-width: 550px){
+	.contactbox{
+		
+		margin-top: 60px;
+	}
+}

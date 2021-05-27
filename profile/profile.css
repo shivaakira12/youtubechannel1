@@ -1,0 +1,76 @@
+
+.card{
+	max-width: 350px;
+	max-height: 100px;
+	margin: auto;
+	text-align: center;
+	box-shadow: 15px 20px 15px 15px  #34495e;
+	margin-top: 80px;
+	background: rgba(0, 0, 0,0.7)url("../images/39.jpg");
+	background-size: cover;
+	background-blend-mode: darken;
+
+	
+}
+.card img{
+	max-width: 350px;
+	
+	
+
+}
+.title{
+	color: gray;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+.socials a{
+	margin: 4px;
+	font-size: 22px;
+	color: black;
+
+}
+
+button:hover,
+.socials a:hover{
+	opacity: 0.5;
+
+}
+h1
+{
+	font-family: 'Dancing Script', cursive;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+.con a{
+	text-decoration: none;
+	border:none;
+	width: 100%;
+	background: black;
+	padding: 8px;
+	color: white;
+	display: inline-block;
+	outline: 0;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+}
+.home{
+	margin: auto;
+	padding: 10px 15px;
+}
+.home a{
+	text-decoration: none;
+	border: 3px solid black;
+	padding: 5px 10px;
+	background: black;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	
+}
